@@ -1,0 +1,403 @@
+[
+    {
+        "_id": "62a9f88c0df9ae946db769b9",
+        "matching_terms": [
+            [
+                "patch",
+                "update",
+                "upgrade"
+            ],
+            [
+                "version",
+                "v",
+                "ver"
+            ]
+        ],
+        "description": "Pattern for creating Update-Tasks",
+        "name": "Update-Step",
+        "workflow_step": {
+            "type": "single",
+            "name": "Update-Step",
+            "owner": "SOAR-Platform",
+            "commands": [
+                {
+                    "type": "manual",
+                    "command": "Update Procedure necessary. Action_Description:[$$action_description$$]. Noun_Tags: [$$sentence_noun_tags$$]"
+                }
+            ],
+            "target_ids": [],
+            "in_args": [],
+            "out_args": [],
+            "next_steps": [],
+            "on_true": [],
+            "on_false": [],
+            "external_references": []
+        },
+        "__v": 0
+    },
+    {
+        "_id": "62bbf7935c54f53145e973db",
+        "matching_terms": [
+            [
+                "investigation",
+                "investigate",
+                "scan",
+                "examine",
+                "inspect",
+                "inspection",
+                "review",
+                "check"
+            ]
+        ],
+        "description": "Pattern for creating Investigation-Tasks",
+        "name": "Investigation-Step",
+        "workflow_step": {
+            "type": "single",
+            "name": "Investigation-Step",
+            "owner": "SOAR-Platform",
+            "commands": [
+                {
+                    "type": "manual",
+                    "command": "Investigation necessary. Action_Description:[$$action_description$$]. Noun_Tags: [$$sentence_noun_tags$$]"
+                }
+            ],
+            "target_ids": [],
+            "in_args": [],
+            "out_args": [],
+            "next_steps": [],
+            "on_true": [],
+            "on_false": [],
+            "external_references": []
+        },
+        "__v": 0
+    },
+    {
+        "_id": "62bc01805c54f53145e973fe",
+        "matching_terms": [
+            [
+                "locate",
+                "find",
+                "detect",
+                "discover",
+                "uncover"
+            ],
+            [
+                "object",
+                "artifact",
+                "file",
+                "directory",
+                "instance"
+            ]
+        ],
+        "description": "Pattern for creating locating tasks",
+        "name": "Locating-Step",
+        "workflow_step": {
+            "type": "single",
+            "name": "Locating-Step",
+            "owner": "SOAR-Platform",
+            "commands": [
+                {
+                    "type": "manual",
+                    "command": "Action necessary to locate entities/artifacts/etc. Action_Description:[$$action_description$$]. Noun_Tags: [$$sentence_noun_tags$$]"
+                }
+            ],
+            "target_ids": [],
+            "in_args": [],
+            "out_args": [],
+            "next_steps": [],
+            "on_true": [],
+            "on_false": [],
+            "external_references": []
+        },
+        "__v": 0
+    },
+    {
+        "_id": "62bc02bd5c54f53145e97404",
+        "matching_terms": [
+            [
+                "query",
+                "create",
+                "alter",
+                "delete",
+                "copy"
+            ],
+            [
+                "data",
+                "entity",
+                "directory",
+                "file"
+            ]
+        ],
+        "description": "Pattern for creating tasks related to data operations.",
+        "name": "Data-Operation-Step",
+        "workflow_step": {
+            "type": "single",
+            "name": "Data-Operation-Step",
+            "owner": "SOAR-Platform",
+            "commands": [
+                {
+                    "type": "manual",
+                    "command": "Data operation necessary. Action_Description:[$$action_description$$]. Noun_Tags: [$$sentence_noun_tags$$]"
+                }
+            ],
+            "target_ids": [],
+            "in_args": [],
+            "out_args": [],
+            "next_steps": [],
+            "on_true": [],
+            "on_false": [],
+            "external_references": []
+        },
+        "__v": 0
+    },
+    {
+        "_id": "62bc04d65c54f53145e9740a",
+        "matching_terms": [
+            [
+                "contain",
+                "containment",
+                "isolation",
+                "avoid"
+            ],
+            [
+                "file",
+                "process",
+                "entity",
+                "asset",
+                "process"
+            ]
+        ],
+        "description": "Pattern for creating Isolation-Tasks",
+        "name": "Isolation-Step",
+        "workflow_step": {
+            "type": "single",
+            "name": "Isolation-Step",
+            "owner": "SOAR-Platform",
+            "commands": [
+                {
+                    "type": "manual",
+                    "command": "Isolating action required. Action_Description:[$$action_description$$]. Noun_Tags: [$$sentence_noun_tags$$]"
+                }
+            ],
+            "target_ids": [],
+            "in_args": [],
+            "out_args": [],
+            "next_steps": [],
+            "on_true": [],
+            "on_false": [],
+            "external_references": []
+        },
+        "__v": 0
+    },
+    {
+        "_id": "62bc068c5c54f53145e97411",
+        "matching_terms": [
+            [
+                "access",
+                "credentials",
+                "right"
+            ],
+            [
+                "allow",
+                "restrict",
+                "grant",
+                "assign",
+                "give",
+                "permit",
+                "reduce",
+                "regulate",
+                "block",
+                "limit"
+            ]
+        ],
+        "description": "Pattern for creating access-related tasks.",
+        "name": "Access-Action-Step",
+        "workflow_step": {
+            "type": "single",
+            "name": "Access-Action-Step",
+            "owner": "SOAR-Platform",
+            "commands": [
+                {
+                    "type": "manual",
+                    "command": "Access-related actions required. Action_Description:[$$action_description$$]. Noun_Tags: [$$sentence_noun_tags$$]"
+                }
+            ],
+            "target_ids": [],
+            "in_args": [],
+            "out_args": [],
+            "next_steps": [],
+            "on_true": [],
+            "on_false": [],
+            "external_references": []
+        },
+        "__v": 0
+    },
+    {
+        "_id": "62bc0f315c54f53145e97417",
+        "matching_terms": [
+            [
+                "start",
+                "stop",
+                "restart",
+                "cancel",
+                "enable",
+                "disable"
+            ],
+            [
+                "process",
+                "application",
+                "system",
+                "activity",
+                "action",
+                "environment",
+                "function",
+                "feature",
+                "port"
+            ]
+        ],
+        "description": "Pattern for creating tasks related to the state of systems",
+        "name": "System-Action-Step",
+        "workflow_step": {
+            "type": "single",
+            "name": "System-Action-Step",
+            "owner": "SOAR-Platform",
+            "commands": [
+                {
+                    "type": "manual",
+                    "command": "System action required.  Action_Description:[$$action_description$$]. Noun_Tags: [$$sentence_noun_tags$$]"
+                }
+            ],
+            "target_ids": [],
+            "in_args": [],
+            "out_args": [],
+            "next_steps": [],
+            "on_true": [],
+            "on_false": [],
+            "external_references": []
+        },
+        "__v": 0
+    },
+    {
+        "_id": "62bc100a5c54f53145e9741d",
+        "matching_terms": [
+            [
+                "set",
+                "change",
+                "apply",
+                "put",
+                "restore"
+            ],
+            [
+                "value",
+                "configuration",
+                "state",
+                "property",
+                "attribute"
+            ]
+        ],
+        "description": "Pattern for creating tasks that set entities/related properties",
+        "name": "Set-Entity-Step",
+        "workflow_step": {
+            "type": "single",
+            "name": "Set-Entity-Step",
+            "owner": "SOAR-Platform",
+            "commands": [
+                {
+                    "type": "manual",
+                    "command": "Action that alters entities necessary. Action_Description:[$$action_description$$]. Noun_Tags: [$$sentence_noun_tags$$]"
+                }
+            ],
+            "target_ids": [],
+            "in_args": [],
+            "out_args": [],
+            "next_steps": [],
+            "on_true": [],
+            "on_false": [],
+            "external_references": []
+        },
+        "__v": 0
+    },
+    {
+        "_id": "62bc13195c54f53145e9749e",
+        "matching_terms": [
+            [
+                "redirect",
+                "switch",
+                "block",
+                "intercept"
+            ],
+            [
+                "traffic",
+                "destination",
+                "url",
+                "ip",
+                "address",
+                "packet",
+                "network"
+            ]
+        ],
+        "description": "Pattern for creating traffic related actions.",
+        "name": "Traffic-Action-Step",
+        "workflow_step": {
+            "type": "single",
+            "name": "Traffic-Action-Step",
+            "owner": "SOAR-Platform",
+            "commands": [
+                {
+                    "type": "manual",
+                    "command": "Redirecting procedure necessary. Action_Description:[$$action_description$$]. Noun_Tags: [$$sentence_noun_tags$$]"
+                }
+            ],
+            "target_ids": [],
+            "in_args": [],
+            "out_args": [],
+            "next_steps": [],
+            "on_true": [],
+            "on_false": [],
+            "external_references": []
+        },
+        "__v": 0
+    },
+    {
+        "_id": "62bc141d5c54f53145e974a4",
+        "matching_terms": [
+            [
+                "detonate",
+                "execute",
+                "observe",
+                "examine",
+                "monitor",
+                "discover"
+            ],
+            [
+                "behaviour",
+                "malware",
+                "target",
+                "action",
+                "attack",
+                "activity"
+            ]
+        ],
+        "description": "Pattern for creating tasks that include the execution of potential malware in isolated environments.",
+        "name": "Observe-Behaviour-Step",
+        "workflow_step": {
+            "type": "single",
+            "name": "Observe-Behaviour-Step",
+            "owner": "SOAR-Platform",
+            "commands": [
+                {
+                    "type": "manual",
+                    "command": "Executing and observing malicious artifacts in an isolated environment necessary. Action_Description:[$$action_description$$]. Noun_Tags: [$$sentence_noun_tags$$]"
+                }
+            ],
+            "target_ids": [],
+            "in_args": [],
+            "out_args": [],
+            "next_steps": [],
+            "on_true": [],
+            "on_false": [],
+            "external_references": []
+        },
+        "__v": 0
+    }
+]

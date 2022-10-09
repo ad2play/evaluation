@@ -1,0 +1,215 @@
+[
+    {
+        "thingId": "SOAR4IoT:Mock_Cisco",
+        "policyId": "SOAR4IoT:policy",
+        "attributes": {
+            "manufacturerID": 1,
+            "manufacturerName": "Cisco",
+            "dateCode": "",
+            "model": "",
+            "type": "Mock",
+            "image": "",
+            "location": "Lab",
+            "data": {
+                "configuration": {
+                    "friendlyName": "Mock_Cisco",
+                    "ieeeAddress": "",
+                    "networkAddress": 0,
+                    "powerSource": "",
+                    "applicationVersion": 0,
+                    "hardwareVersion": 0,
+                    "softwareBuildID": "",
+                    "stackVersion": 0,
+                    "zclVersion": 0
+                },
+                "state": {
+                    "properties": {}
+                }
+            },
+            "security": {
+                "cpe": [
+                    {
+                        "device": "cpe:2.3:h:cisco:catalyst_ie3400_heavy_duty_switch:-:*:*:*:*:*:*:*",
+                        "firmware": "cpe:2.3:o:cisco:ios_xe:16.10.1s:*:*:*:*:*:*:*"
+                    },
+                    {
+                        "device": "cpe:2.3:h:cisco:catalyst_ie3400_rugged_switch:-:*:*:*:*:*:*:*",
+                        "firmware": "cpe:2.3:o:cisco:ios_xe:16.10.1s:*:*:*:*:*:*:*"
+                    },
+                    {
+                        "device": "cpe:2.3:h:cisco:ie_4000:-:*:*:*:*:*:*:*",
+                        "firmware": ""
+                    },
+                    {
+                        "device": "cpe:2.3:h:cisco:esw6300:-:*:*:*:*:*:*:*",
+                        "firmware": ""
+                    },
+                    {
+                        "device": "cpe:2.3:h:cisco:esr6300:-:*:*:*:*:*:*:*",
+                        "firmware": ""
+                    },
+                    {
+                        "device": "",
+                        "firmware": "cpe:2.3:a:cisco:digital_network_architecture_center:-:*:*:*:*:*:*:*"
+                    },
+                    {
+                        "device": "cpe:2.3:h:cisco:ic3000:-:*:*:*:*:*:*:*",
+                        "firmware": "cpe:2.3:o:cisco:ic3000_firmware:-:*:*:*:*:*:*:*"
+                    },
+                    {
+                        "device": "",
+                        "firmware": "cpe:2.3:a:cisco:iox:-:*:*:*:*:*:*:*"
+                    },
+                    {
+                        "device": "",
+                        "firmware": "cpe:2.3:a:cisco:firepower_management_center:-:*:*:*:*:*:*:*"
+                    },
+                    {
+                        "device": "",
+                        "firmware": "cpe:2.3:a:cisco:virtualized_infrastructure_manager:-:*:*:*:*:*:*:*"
+                    }
+                ],
+                "entity_tags": ["SOAR4IoT:Mock_Cisco"],
+                "group_tags": ["SOAR4IoT:Twin_Group_1"],
+                "match_tags": [
+                    "IE3400", 
+                    "IE 4000",
+                    "Catalyst IR1800",
+                    "Catalyst IR1100",
+                    "IG30R",
+                    "Catalyst IR8300",
+                    "Catalyst IW9167E",
+                    "ESW6300",
+                    "ESR6300",
+                    "Catalyst ESS9300",
+                    "Secure Firewall ISA3000",
+                    "DNA Center",
+                    "IoT Field Network Director (FND)",
+                    "IC3000",
+                    "IOx",
+                    "Firepower Management Center",
+                    "Virtualized Infrastructure Manager"
+                ]
+            }
+        }
+    },
+    {
+        "thingId": "SOAR4IoT:Mock_Siemens",
+        "policyId": "SOAR4IoT:policy",
+        "attributes": {
+            "manufacturerID": 1,
+            "manufacturerName": "Siemens",
+            "dateCode": "",
+            "model": "",
+            "type": "Mock",
+            "image": "",
+            "location": "Lab",
+            "data": {
+                "configuration": {
+                    "friendlyName": "Mock_Siemens",
+                    "ieeeAddress": "",
+                    "networkAddress": 0,
+                    "powerSource": "",
+                    "applicationVersion": 0,
+                    "hardwareVersion": 0,
+                    "softwareBuildID": "",
+                    "stackVersion": 0,
+                    "zclVersion": 0
+                },
+                "state": {
+                    "properties": {}
+                }
+            },
+            "security": {
+                "cpe": [                    
+                    {
+                        "device": "cpe:2.3:h:siemens:simatic_s7-1200:-:*:*:*:*:*:*:*",
+                        "firmware": "cpe:2.3:o:siemens:simatic_s7_cpu_1200_firmware:4.0:*:*:*:*:*:*:*"
+                    },
+                    {
+                        "device": "cpe:2.3:a:siemens:simatic_s7-1500:-:*:*:*:*:*:*:*",
+                        "firmware": "cpe:2.3:a:siemens:simatic_s7-1500__software_controller:-:*:*:*:*:*:*:*"
+                    },
+                    {
+                        "device": "cpe:2.3:h:siemens:simatic_s7-300:-:*:*:*:*:*:*:*",
+                        "firmware": "cpe:2.3:o:siemens:simatic_s7_300_cpu_firmware:-:*:*:*:*:*:*:*"
+                    },
+                    {
+                        "device": "cpe:2.3:h:siemens:simatic_s7-400:-:*:*:*:*:*:*:*",
+                        "firmware": "cpe:2.3:o:siemens:simatic_s7_400_cpu_firmware:-:*:*:*:*:*:*:*"
+                    },
+                    {
+                        "device": "cpe:2.3:h:siemens:simatic_s7-400:-:*:*:*:*:*:*:*",
+                        "firmware": "cpe:2.3:o:siemens:simatic_s7_400_cpu_firmware:-:*:*:*:*:*:*:*"
+                    },
+                    {
+                        "device": "",
+                        "firmware": "cpe:2.3:a:siemens:simatic_step_7:12.0:*:*:*:*:*:*:*"
+                    },
+                    {
+                        "device": "",
+                        "firmware": "cpe:2.3:a:siemens:simatic_s7-plcsim_advanced:-:*:*:*:*:*:*:*"
+                    },
+                    {
+                        "device": "cpe:2.3:h:siemens:sinamics_v90_pn:-:*:*:*:*:*:*:*",
+                        "firmware": "cpe:2.3:o:siemens:sinamics_v90_pn_firmware:1.01:*:*:*:*:*:*:*"
+                    },
+                    {
+                        "device": "cpe:2.3:h:siemens:sinamics_s210:-:*:*:*:*:*:*:*",
+                        "firmware": "cpe:2.3:o:siemens:sinamics_s210_firmware:5.1:-:*:*:*:*:*:*"
+                    },
+                    {
+                        "device": "cpe:2.3:h:siemens:sinamics_s210:-:*:*:*:*:*:*:*",
+                        "firmware": "cpe:2.3:o:siemens:sinamics_s210_firmware:5.1:-:*:*:*:*:*:*"
+                    },
+                    {
+                        "device": "cpe:2.3:a:siemens:sinumerik_840d_sl:-:*:*:*:*:*:*:*",
+                        "firmware": "cpe:2.3:o:siemens:sinumerik_840d_sl_firmware:-:*:*:*:*:*:*:*"
+                    },
+                    {
+                        "device": "cpe:2.3:h:siemens:sinumerik_one:-:*:*:*:*:*:*:*",
+                        "firmware": "cpe:2.3:o:siemens:sinumerik_one_firmware:-:*:*:*:*:*:*:*"
+                    },
+                    {
+                        "device": "cpe:2.3:h:siemens:simotion_c:-:*:*:*:*:*:*:* ",
+                        "firmware": "cpe:2.3:o:siemens:simotion_c_firmware:5.1:*:*:*:*:*:*:*"
+                    },
+                    {
+                        "device": "cpe:2.3:h:siemens:simotion_d:-:*:*:*:*:*:*:*",
+                        "firmware": "cpe:2.3:o:siemens:simotion_d_firmware:5.1:*:*:*:*:*:*:*"
+                    },
+                    {
+                        "device": "cpe:2.3:h:siemens:simotion_p:-:*:*:*:*:*:*:*",
+                        "firmware": "cpe:2.3:o:siemens:simotion_p_firmware:5.1:*:*:*:*:*:*:*"
+                    }
+                ],
+                "entity_tags": ["SOAR4IoT:Mock_Siemens"],
+                "group_tags": ["SOAR4IoT:Twin_Group_1"],
+                "match_tags": [
+                    "SIMATIC S7-1200", 
+                    "SIMATIC S7-1500", 
+                    "SIMATIC S7-300", 
+                    "SIMATIC S7-400", 
+                    "STEP7 Professional",
+                    "STEP7 Safety Advanced",
+                    "SIMATIC STEP 7",
+                    "SIMATIC S7-PLCSIM Advanced",
+                    "SIMATIC Target for Simulink",
+                    "SIMATIC Safe Kinematics",
+                    "SIMATIC Kinematics Operate",
+                    "SINAMICS V20",
+                    "SINAMICS V90",
+                    "SINAMICS S210",
+                    "SINUMERIK 840D sl",
+                    "SINUMERIK ONE",
+                    "SIMATIC Version Cross Manager",
+                    "PROFINET Assetmanagement",
+                    "PRONETA Professional",
+                    "SIMOTION D",
+                    "SIMOTION P",
+                    "SIMOTION C"
+                ]
+            }
+        }
+    }
+]
