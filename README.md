@@ -256,7 +256,7 @@ plt.show()
 
 
     
-![png](output_11_0.png)
+![png](resources/output_11_0.png)
     
 
 
@@ -291,7 +291,7 @@ rc('text', usetex=False)
 
 
     
-![png](output_13_0.png)
+![png](resources/output_13_0.png)
     
 
 
@@ -330,7 +330,7 @@ ax.yaxis.tick_left()
 
 
     
-![png](output_16_0.png)
+![png](resources/output_16_0.png)
     
 
 
@@ -367,7 +367,7 @@ ax.yaxis.tick_left()
 
 
     
-![png](output_18_0.png)
+![png](resources/output_18_0.png)
     
 
 
@@ -404,7 +404,7 @@ ax.yaxis.tick_left()
 
 
     
-![png](output_20_0.png)
+![png](resources/output_20_0.png)
     
 
 
@@ -441,6 +441,6 @@ ax.yaxis.tick_left()
 
 
     
-![png](output_22_0.png)
+![png](resources/output_22_0.png)
     
 
