@@ -28,11 +28,15 @@ from matplotlib import rc
 ```python
 filename = "evaluation.csv"
 sns.set(font_scale=1.4)
-sentences = 2600
-sentences_siemens = 1600
-sentences_cisa = 800
-sentences_cisco = 100
+sentences_siemens = 220
+sentences_cisa = 705
+sentences_cisco = 136
+sentences = sentences_siemens + sentences_cisa + sentences_cisco
+print(sentences)
 ```
+
+    1061
+    
 
 ## Import CSV
 
@@ -46,6 +50,19 @@ df_tasks.head()
 
 
 <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -234,7 +251,7 @@ axs[0].set_title(r"\textbf{Advisories}")
 axs[1].pie(actions, autopct = autopct_format(actions), pctdistance=1.15, colors = mycolors)
 axs[1].set_title(r"\textbf{Actions}")
 
-legend = plt.legend(mylabels,bbox_to_anchor=(0.9, 0.1), fontsize=15, 
+legend = plt.legend(mylabels,bbox_to_anchor=(0.9, 0.1), fontsize=17, 
            bbox_transform=plt.gcf().transFigure, frameon=False)
 legend.get_frame().set_alpha(None)
 legend.get_frame().set_facecolor((0, 0, 0, 0))
@@ -243,7 +260,7 @@ plt.show()
 
 
     
-![png](resources/output_11_0.png)
+![png](output_11_0.png)
     
 
 
@@ -278,7 +295,7 @@ rc('text', usetex=False)
 
 
     
-![png](resources/output_13_0.png)
+![png](output_13_0.png)
     
 
 
@@ -317,7 +334,7 @@ ax.yaxis.tick_left()
 
 
     
-![png](resources/output_16_0.png)
+![png](output_16_0.png)
     
 
 
@@ -354,7 +371,7 @@ ax.yaxis.tick_left()
 
 
     
-![png](resources/output_18_0.png)
+![png](output_18_0.png)
     
 
 
@@ -391,7 +408,7 @@ ax.yaxis.tick_left()
 
 
     
-![png](resources/output_20_0.png)
+![png](output_20_0.png)
     
 
 
@@ -428,6 +445,16 @@ ax.yaxis.tick_left()
 
 
     
-![png](resources/output_22_0.png)
+![png](output_22_0.png)
     
 
+
+
+```python
+
+```
+
+
+```python
+
+```
