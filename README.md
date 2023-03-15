@@ -85,19 +85,6 @@ df_tasks.head()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -313,7 +300,7 @@ fig.savefig('./charts/actions.pdf', dpi = 200, bbox_inches="tight")
 
 
     
-![png](output_11_0.png)
+![png](https://raw.githubusercontent.com/ad2play/evaluation/main/resources/output_11_0.png)
     
 
 
@@ -385,7 +372,7 @@ fig.savefig("./charts/action_types.pdf", dpi=200, bbox_inches="tight")
 
 
     
-![png](output_13_0.png)
+![png](https://raw.githubusercontent.com/ad2play/evaluation/main/resources/output_13_0.png)
     
 
 
@@ -400,7 +387,7 @@ plot_confusion_matrix("Siemens ProductCERT", df_tasks, sentences_siemens)
 
 
     
-![png](output_16_0.png)
+![png](https://raw.githubusercontent.com/ad2play/evaluation/main/resources/output_16_0.png)
     
 
 
@@ -413,7 +400,7 @@ plot_confusion_matrix('Cisco Security Advisory', df_tasks, sentences_siemens)
 
 
     
-![png](output_18_0.png)
+![png](https://raw.githubusercontent.com/ad2play/evaluation/main/resources/output_18_0.png)
     
 
 
@@ -426,7 +413,7 @@ plot_confusion_matrix("CISA ICS CERT", df_tasks, sentences_cisa)
 
 
     
-![png](output_20_0.png)
+![png](https://raw.githubusercontent.com/ad2play/evaluation/main/resources/output_20_0.png)
     
 
 
@@ -480,6 +467,6 @@ plt.savefig('./charts/confusion_matrix_total.pdf', dpi=200, bbox_inches="tight")
 
 
     
-![png](output_22_0.png)
+![png](https://raw.githubusercontent.com/ad2play/evaluation/main/resources/output_22_0.png)
     
 
